@@ -16,9 +16,11 @@ html
 //                        Header
 
 .main-section
+  position: relative
   height: 80rem
   background: #F0F0F0
   padding: 1.4rem 1.9rem 0 1.2rem 
+  overflow: hidden
   &__nav-container
     display: flex
     justify-content: space-between
@@ -31,7 +33,10 @@ html
     position: absolute
     top: 13.9rem
     right: 1.4rem
-
+  &__second-circle
+    position: absolute
+    right: -12rem
+    top: 65rem
     
 .container
   max-width: 114rem

@@ -370,9 +370,11 @@ html {
 }
 
 .main-section {
+  position: relative;
   height: 80rem;
   background: #F0F0F0;
   padding: 1.4rem 1.9rem 0 1.2rem;
+  overflow: hidden;
 }
 .main-section__nav-container {
   display: flex;
@@ -388,6 +390,11 @@ html {
   position: absolute;
   top: 13.9rem;
   right: 1.4rem;
+}
+.main-section__second-circle {
+  position: absolute;
+  right: -12rem;
+  top: 65rem;
 }
 
 .container {
