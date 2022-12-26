@@ -663,4 +663,36 @@ html {
 
 .circle__center_white {
   background-color: #fff;
+}
+
+.third-section {
+  min-height: 64rem;
+  background-color: #f0f0f0;
+}
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16.7rem;
+  justify-content: space-between;
+  padding-top: 4.6rem;
+}
+.third-section__right-content {
+  max-width: 47.9rem;
+}
+.third-section__right-title:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.third-section__text:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.third-section__text {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.title_right-hr {
+  bottom: 8.5rem;
+  width: 23.5rem;
 }/*# sourceMappingURL=style.css.map */

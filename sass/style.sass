@@ -41,6 +41,7 @@ html
 
     
 .container
+  position: relative
   max-width: 114rem
   margin: 0 auto
 
@@ -267,3 +268,36 @@ html
   &__center
     &_white
       background-color: #fff
+
+//                 Third Section
+
+.third-section
+  min-height: 64rem
+  background-color: #f0f0f0
+  &__container
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding-left: 16.7rem
+    justify-content: space-between
+    padding-top: 4.6rem
+  &__left-content
+    // margin: 16rem 8.8rem 16rem 1.2rem
+  &__right-content
+    max-width: 47.9rem
+  &__right-title:not(:last-child)
+    margin-bottom: 2rem
+  &__text:not(:last-child)
+    margin-bottom: 3rem
+  &__text
+    font-weight: 400
+    font-size: 1.8rem
+    line-height: 2.2rem
+  &__second-circle
+    position: absolute
+    top: 1.4rem
+    left: 1.1rem
+
+.title_right-hr
+  bottom: 8.5rem
+  width: 23.5rem
