@@ -272,17 +272,21 @@ html
 //                 Third Section
 
 .third-section
+  position: relative
+  z-index: 0
   min-height: 64rem
   background-color: #f0f0f0
+  overflow: hidden
   &__container
     display: flex
     flex-direction: row
     align-items: center
-    padding-left: 16.7rem
     justify-content: space-between
-    padding-top: 4.6rem
-  &__left-content
-    // margin: 16rem 8.8rem 16rem 1.2rem
+    padding: 4.6rem 0 4.6rem 16.7rem 
+  &__figure
+    position: absolute
+    top: 16.9rem
+    left: 1.9rem
   &__right-content
     max-width: 47.9rem
   &__right-title:not(:last-child)
@@ -293,11 +297,24 @@ html
     font-weight: 400
     font-size: 1.8rem
     line-height: 2.2rem
+  &__first-circle
+    position: absolute
+    top: 10.4rem
+    left: 11.1rem
+    z-index: -1
   &__second-circle
     position: absolute
-    top: 1.4rem
-    left: 1.1rem
+    top: -12rem
+    right: -12rem
 
 .title_right-hr
   bottom: 8.5rem
   width: 23.5rem
+  
+//                        Footer
+
+.footer
+&__img
+  position: absolute
+  left: -25rem
+  bottom: 0
