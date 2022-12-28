@@ -367,6 +367,8 @@ table {
 
 html {
   font-size: 62.5%;
+  font-family: Montserrat;
+  scroll-behavior: smooth;
 }
 
 .main-section {
@@ -388,8 +390,8 @@ html {
 }
 .main-section__first-circle {
   position: absolute;
-  top: 13.5rem;
-  right: 1.5rem;
+  top: 14rem;
+  right: 4rem;
 }
 .main-section__second-circle {
   position: absolute;
@@ -405,16 +407,24 @@ html {
 
 .nav-menu__list {
   display: flex;
-  font-family: Montserrat;
   font-style: 600;
   font-size: 1.8rem;
   line-height: 2.2rem;
 }
 .nav-menu__item {
   margin-right: 6.4rem;
+  font-weight: 600;
 }
 .nav-menu__item:last-child {
   margin-right: 0;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-menu a:hover, .nav-menu a:active {
+  text-decoration: underline;
+  color: #F28B64;
 }
 
 .left {
@@ -546,7 +556,7 @@ html {
 }
 .title__hr {
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 0.2rem;
   margin: 0;
   width: 2.5rem;
   border: 0;
@@ -712,6 +722,22 @@ html {
 }
 
 .title_right-hr {
-  bottom: 8.5rem;
+  bottom: 7rem;
   width: 23.5rem;
+}
+
+.footer__img {
+  position: absolute;
+  left: -25rem;
+  bottom: 0;
+}
+.footer__container {
+  display: flex;
+  min-height: 27.2rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer .title_footer-hr {
+  bottom: 7rem;
+  width: 19.5rem;
 }/*# sourceMappingURL=style.css.map */

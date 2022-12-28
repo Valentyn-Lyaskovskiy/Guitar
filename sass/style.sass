@@ -12,6 +12,9 @@ $orange: #F28B64
 
 html
   font-size: 62.5%
+  font-family: Montserrat
+  scroll-behavior: smooth
+
 
 //                  Main Section
 
@@ -31,8 +34,8 @@ html
     display: flex
   &__first-circle
     position: absolute
-    top: 13.5rem
-    right: 1.5rem
+    top: 14rem
+    right: 4rem
   &__second-circle
     position: absolute
     right: -12rem
@@ -48,14 +51,20 @@ html
 .nav-menu
   &__list
     display: flex
-    font-family: Montserrat
     font-style: 600
     font-size: 1.8rem
     line-height: 2.2rem
   &__item
     margin-right: 6.4rem
+    font-weight: 600
     &:last-child
       margin-right: 0
+  a
+    text-decoration: none
+    color: #000
+  a:hover, a:active 
+    text-decoration: underline
+    color: $orange
 
 .left
   position: relative
@@ -167,13 +176,16 @@ html
   line-height: 6.8rem
   &__hr
     position: absolute
-    bottom: 1.5rem
+    bottom: .2rem
     margin: 0     
     width: 2.5rem
     border: 0
     border-top: .2rem solid #000
     &_long
       width: 21rem
+   
+
+
 
 
 .circle
@@ -201,6 +213,7 @@ html
 .second-section
   min-height: 70rem
   padding-top: 5.2rem
+  overflow: hidden
   &__container
     position: relative
   &__card-box
@@ -308,13 +321,30 @@ html
     right: -12rem
 
 .title_right-hr
-  bottom: 8.5rem
+  bottom: 7rem
   width: 23.5rem
   
 //                        Footer
 
 .footer
-&__img
-  position: absolute
-  left: -25rem
-  bottom: 0
+  &__img
+    position: absolute
+    left: -25rem
+    bottom: 0
+  &__container
+    display: flex
+    min-height: 27.2rem
+    align-items: center
+    justify-content: flex-end
+
+  .title_footer-hr
+    bottom: 7rem
+    width: 19.5rem
+
+
+      
+
+    
+      
+
+      
