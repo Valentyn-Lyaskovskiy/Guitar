@@ -1,20 +1,20 @@
+*
+  box-sizing:border-box
+
 @import "normalizes.scss"
 @import "resets.scss"
 
 $blue: #5290EA
-$grey:  #E2E2E2
+$grey: #E2E2E2
 $orange: #F28B64
 
 //                       General
 
-*
-  box-sizing: border-box
     
 html
   font-size: 62.5%
   font-family: Montserrat
   scroll-behavior: smooth
-
 
 //                  Main Section
 
@@ -40,9 +40,7 @@ html
     position: absolute
     right: -12rem
     top: 65rem
-   
-
-    
+      
 .container
   position: relative
   max-width: 114rem
@@ -51,7 +49,7 @@ html
 .nav-menu
   &__list
     display: flex
-    font-style: 600
+    font-weight: 600
     font-size: 1.8rem
     line-height: 2.2rem
   &__item
@@ -68,9 +66,9 @@ html
 
 .left
   position: relative
-  &__img
-    z-index: 5      
+  img
     position: relative
+    z-index: 5      
   &__rect-blue
     position: absolute
     top: 15rem
@@ -84,7 +82,7 @@ html
     z-index: 2   
   &__rect-orange
     position: absolute
-    top: 16rem
+    top: 16.5rem
     left: -3rem
     transform: rotate(-50.81deg)
     background: $orange
@@ -92,18 +90,22 @@ html
     height: 22rem
     border-radius: 10rem
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-    z-index: 3    
+    z-index: 3
   &__rect-grey
     position: absolute
     top: 19rem
     left: 1rem
     transform: rotate(-36.15deg)
     background: $grey
-    width: 60.897rem
+    width: 60.8rem
     height: 22rem
     border-radius: 10rem
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     z-index: 1
+
+
+
+    
 
 .right
   position: absolute
@@ -168,7 +170,6 @@ html
     font-size: 1.6rem
     line-height: 105.19%
     
-    
 .title
   position: relative
   font-weight: 600
@@ -183,10 +184,6 @@ html
     border-top: .2rem solid #000
     &_long
       width: 21rem
-   
-
-
-
 
 .circle
   display: flex
@@ -219,6 +216,7 @@ html
   &__card-box
     display: flex
     gap: 3rem
+    justify-content: center
   &__card-box:not(:last-child)
     margin-bottom: 2.5rem
   &__title:not(:last-child)
@@ -342,7 +340,6 @@ html
     width: 19.5rem
 
 
-      
 
     
       
